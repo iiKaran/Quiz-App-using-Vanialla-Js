@@ -58,6 +58,7 @@ body {
 .question {
  font-size: 1.6rem;
  font-weight: 700;
+ line-height: 33px;
  padding: 14px;
  text-transform: capitalize;
 }

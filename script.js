@@ -8,36 +8,36 @@ quesIndex = 0 ;
 n = 4; 
 let ques = [
  {
-  question: "jack",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
+  question: "1. A linear collection of data elements where the linear node is given by means of pointer is called?",
+  option1: "a) Linked list",
+  option2: "b) Node list ",
+  option3: "c) Primitive list",
+  option4: "d) Unordered list ",
   answer: 1
  },
  {
-  question: "tom",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  answer: 2
+  question: "2. In linked list each node contains a minimum of two fields. One field is data field to store the data second field is?",
+  option1: "a) Pointer to character",
+  option2: "b) Pointer to integer",
+  option3: "c) Pointer to node",
+  option4: "d) Node",
+  answer: 3
  },
  {
-  question: "jack2",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  answer: 2
+  question: "3. What would be the asymptotic time complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list?",
+  option1: "a) O(1)",
+  option2: "b) O(n)",
+  option3: "c) θ(n)",
+  option4: "d) θ(1)",
+  answer: 3
  },
  {
-  question: "tom2",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  option1: "option1 ",
-  answer: 2
+  question: "4. The concatenation of two lists can be performed in O(1) time. Which of the following variation of the linked list can be used?",
+  option1: "a) Singly linked list",
+  option2: "b) Doubly linked list",
+  option3: "c) Array implementation of list",
+  option4: "d) Circular doubly linked list",
+  answer: 4
  }
 ];
  opt1 = document.getElementById("1");
@@ -112,10 +112,9 @@ e.addEventListener("click",(element)=>{
   element.target.style.background = "rgba(128, 0, 128, 0.279)";
   d = element.target.id ; 
   console.log(d);
-  verify(d);
 })
 })
 check.addEventListener("click",()=>{
  right = document.getElementById(`${ques[quesIndex].answer}`); 
  right.style.background= "#90EE90" ;
-})
+})=s
