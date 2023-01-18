@@ -1,0 +1,107 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ height: 100vh;
+ /* background: hsla(208, 7%, 55%, 1); */
+}
+
+.head {
+ padding: 13px;
+ width: 60vw;
+ margin: auto;
+ margin-top: 13px;
+
+}
+
+.head h1 {
+ font-size: 64px;
+ letter-spacing: 8px;
+ text-align: center;
+ padding: 13px;
+ color: purple;
+}
+
+.head p {
+ padding: 13px;
+ font-size: 18px;
+ line-height: 1.4;
+
+}
+
+.content {
+ width: 60vw;
+ margin: auto;
+ margin-top: 13px;
+ padding: 19px;
+ /* height: 40vh ; */
+ /* display: ; */
+ overflow: hidden hidden;
+ gap: 19px;
+}
+
+.box {
+ /* border: 2px solid green; */
+ padding: 18px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ font-size: 1.3rem;
+ align-content: center;
+ border: 2px solid black;
+ border-radius: 4px;
+ /* width: 30vw; */
+}
+
+.question {
+ font-size: 1.6rem;
+ font-weight: 700;
+ padding: 14px;
+ text-transform: capitalize;
+}
+
+.options {
+ display: flex;
+ flex-direction: column;
+ gap: 13px;
+ padding: 14px;
+ font-size: 1.3rem;
+
+}
+
+.opt {
+ border: 2px solid black;
+ width: 60%;
+ padding: 8px;
+ border-radius: 13px;
+ cursor: pointer;
+ transition: all .4s;
+}
+
+.opt:hover {
+ background-color: rgba(128, 0, 128, 0.279);
+}
+
+.buttons {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 13px;
+ padding: 13px;
+
+}
+
+.btn {
+ padding: 12px;
+ background-color: purple;
+ border-radius: 13px;
+ color: white;
+ font-weight: 800;
+ cursor: pointer;
+ transition: all .5s;
+ text-transform: capitalize;
+}
+.btn:hover{
+ opacity: .3;
+}
